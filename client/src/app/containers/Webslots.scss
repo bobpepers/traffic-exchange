@@ -1,0 +1,16 @@
+.webslotContainer {
+      box-shadow: 0 0 1rem 0 rgba(60, 67, 146, 0.4);
+}
+
+.webslotId {
+  text-align: left;
+}
+
+.webslotClose {
+  float: right;
+}
+
+.webslotClose:hover svg {
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.jackpot-wrapper {
+    margin-bottom: 45px;
+}
+.pyramid {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+}
+
+.pyramid .row {
+    font-size: 0px;
+    text-align: center;
+}
+
+.pyramid .row * {
+    font-size: 14px;
+}
+
+.pyramid .block {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    /* margin: 1%; */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 5px;
+    width: 24%;
+    //height: 50px;
+    
+}
+.pyramid .block .rank-cell {
+    color: black;
+    //height: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pyramid .block .price-cell {
+    height: 100%;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: bold;
+    background: #002b3a;
+    word-wrap: break-word
+}
+
+.gold {
+    background-color: gold;
+    background: linear-gradient(to bottom,#ffe766 5%,#ffd700 100%);
+    border-bottom: 1px solid #f3cd00;
+}
+
+.silver {
+    background-color: silver;
+    background: linear-gradient(to bottom,#e8e8e8 5%,#c0c0c0 100%);
+    border-bottom: 1px solid #a9a7a7;
+}
+
+.bronze {
+    background-color: #cd7f32;
+    background: linear-gradient(to bottom,#ff9a36 5%,#cd7f32 100%);
+    border-bottom: 1px solid #d87310;
+}
+
+.green_prize_rank {
+    background: linear-gradient(to bottom,#40ff7f 5%,#2EB85C 100%);
+    background-color: #2eb85c;
+    border-bottom: 1px solid #0a9c3b;
+}
+h1 {
+    margin: 0;
+}

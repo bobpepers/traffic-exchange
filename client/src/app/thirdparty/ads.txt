@@ -1,0 +1,3 @@
+#Ads.txt runesx.com
+
+smartyads.com, 5Gz16743rYt7, DIRECT, fd2bde0ff2e62c5d

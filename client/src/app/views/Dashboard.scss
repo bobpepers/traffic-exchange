@@ -1,0 +1,88 @@
+.dashboardContainer {
+  color: azure;
+}
+.sidebar .sideMenuActive div {
+  color: var(--menuTextColorHover);
+}
+.sidebar .sideSubMenuActive div {
+  color: var(--MenuTextColorActiveSubMenu);
+}
+.mirrorIcon {
+  -moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+.sidebar div {
+  background-color: var(--infoBar);
+  color: white;
+}
+
+:root {
+  --star-size: 1.5rem;
+  --star-color: #fff;
+  --star-background: #fc0;
+}
+
+.reputation-star {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.dashboardContainer {
+  flex-grow:1;
+}
+.glass {
+    box-shadow: 0 0 1rem 0 rgba(60, 67, 146, 0.4);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.glass:before {
+  content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(29, 60, 30, 0.59);
+    filter: blur(5px);
+    margin: 20px;
+    padding: 10px;
+}
+.glassHeader {
+    box-shadow: 0 0 1rem 0 rgba(60, 67, 146, 0.4);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.glassHeader:before {
+  content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(5px);
+    margin: -20px;
+}
+
+.dashboardWalletItem {
+  float: left;
+    width: 100%;
+    text-align: center;
+}

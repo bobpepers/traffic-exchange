@@ -1,0 +1,53 @@
+
+  .avatar-image {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 50%;
+      overflow: hidden; 
+      position: relative;
+      -webkit-filter: brightness(100%);
+      border:2px solid #34aec1;
+    border-width:2px;
+    border-style:solid;
+    border-color:#34aec1;
+    -webkit-box-shadow:0px 0px 20px 3px #0092ff ;
+    -moz-box-shadow:0px 0px 20px 3px #0092ff ;
+    box-shadow:0px 0px 20px 3px #0092ff ;
+  }
+  
+  .avatar-image:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+  .avatar-image-wrapper {
+      width: 100%;
+      text-align:center;
+  }
+  .avater-username {
+      text-align: center;
+  }
+  .imageCropperButton {
+      position: absolute;
+      bottom: 50px;
+  }
+  span.avatarEditHoverText{
+    display:none;
+    position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+bottom: 0;
+background: black;
+padding-top: 5px;
+}
+
+div.avatar-image:hover > span.avatarEditHoverText {    
+    z-index: 99999999999999;
+    display:inline;
+ }

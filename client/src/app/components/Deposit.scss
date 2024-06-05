@@ -1,0 +1,19 @@
+.borderAddress {
+    border:2px solid #34aec1;
+    border-width:2px;
+    border-style:solid;
+    border-color:#34aec1;
+    -webkit-box-shadow:0px 0px 20px 3px #0092ff ;
+    -moz-box-shadow:0px 0px 20px 3px #0092ff ;
+    box-shadow:0px 0px 20px 3px #0092ff ;
+    padding: 0;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+}
+.copyAddressButton {
+    float: right;
+}

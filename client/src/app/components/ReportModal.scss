@@ -1,0 +1,16 @@
+.reportIcon {
+    color: red;
+    cursor: pointer
+}
+
+.reportIcon:hover {
+    color: blue;
+}
+
+.signinContainer.reportModalContainer textarea.outlined-adornment-field {
+    color: black; 
+}
+
+.signinContainer.reportModalContainer .MuiOutlinedInput-notchedOutline {
+    border-color: #929292 !important;
+}

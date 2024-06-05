@@ -1,0 +1,20 @@
+import axios from 'axios';
+import {
+  FETCH_CHAININFO,
+} from './types/index';
+
+/**
+ * Fetch ChainInfo
+ */
+export function fetchChainInfo() {
+  return function (dispatch) {
+    axios.get(`${process.env.API_URL}/chaininfo`)
+      .then((response) => {
+        dispatch({
+          type: FETCH_CHAININFO,
+          payload: response.data,
+        });
+        return response.data;
+      });
+  }
+}

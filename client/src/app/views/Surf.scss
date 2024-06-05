@@ -1,0 +1,45 @@
+.surfIframe {
+    top: 4px;
+}  
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;  
+    z-index: 700;
+  }
+  
+  .content {
+      position: relative;
+    flex: 1;  
+  }
+  
+  .footer {
+    position: sticky;
+    bottom: 0;
+  }
+  
+  .surfToolbar {
+    background-color: white;
+    z-index: 5;
+  }
+  .surfToolbar p{
+    margin: 0;
+    padding: 0;
+  }
+  .span-text-surfToolBar {
+    width: 100%;
+    display: block;
+  }
+  .surfToolbar .avatar-image{
+    width: 40px;
+    height: 40px;
+  }
+  .surfToolbar a{
+    word-break: break-all;
+  }
+  
